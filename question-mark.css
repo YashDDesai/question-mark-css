@@ -1,94 +1,93 @@
 
-
 /*
-  AUTHOR: YASH DESAI (Yash's Code Camp) 
+  AUTHOR: YASH DESAI (Yash's Code Camp)
 */
 
 
 
 .\? {
-  border: 2px solid red;
-  border-radius: 4px;
+  outline: 2px solid red;
+  outline-radius: 4px;
   animation: blink-border 0.5s alternate infinite;
 }
 
 .\?b {
-  border: 2px solid blue;
-  border-radius: 4px;
+  outline: 2px solid blue;
+  outline-radius: 4px;
   animation: b-blink-border 0.5s alternate infinite;
 }
 
 .\?g {
-  border: 2px solid green;
-  border-radius: 4px;
+  outline: 2px solid green;
+  outline-radius: 4px;
   animation: g-blink-border 0.5s alternate infinite;
 }
 .\?p {
-  border: 2px solid purple;
-  border-radius: 4px;
+  outline: 2px solid purple;
+  outline-radius: 4px;
   animation: p-blink-border 0.5s alternate infinite;
 }
 .\?y {
-  border: 2px solid yellow;
-  border-radius: 4px;
+  outline: 2px solid yellow;
+  outline-radius: 4px;
   animation: y-blink-border 0.5s alternate infinite;
 }
 .\?w {
-  border: 2px solid white;
-  border-radius: 4px;
+  outline: 2px solid white;
+  outline-radius: 4px;
   animation: w-blink-border 0.5s alternate infinite;
 }
 
 @keyframes blink-border {
   from {
-    border-color: transparent;
+    outline-color: transparent;
   }
   to {
-    border-color: red;
+    outline-color: red;
   }
 }
 
 @keyframes g-blink-border {
   from {
-    border-color: transparent;
+    outline-color: transparent;
   }
   to {
-    border-color: green;
+    outline-color: green;
   }
 }
 
 @keyframes b-blink-border {
   from {
-    border-color: transparent;
+    outline-color: transparent;
   }
   to {
-    border-color: blue;
+    outline-color: blue;
   }
 }
 
 @keyframes p-blink-border {
   from {
-    border-color: transparent;
+    outline-color: transparent;
   }
   to {
-    border-color: purple;
+    outline-color: purple;
   }
 }
 
 @keyframes y-blink-border {
   from {
-    border-color: transparent;
+    outline-color: transparent;
   }
   to {
-    border-color: yellow;
+    outline-color: yellow;
   }
 }
 
 @keyframes w-blink-border {
   from {
-    border-color: transparent;
+    outline-color: transparent;
   }
   to {
-    border-color: white;
+    outline-color: white;
   }
 }
