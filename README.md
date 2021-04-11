@@ -17,3 +17,15 @@ for example:
   // to-do
 </div>
 ```
+
+## Need more colors!
+
+
+| Border Color   | class   |
+| ------------- |:-------------:|
+| Red (default)     | ? | 
+| Green      | ?g      |
+| Blue | ?b      |
+| Purple | ?p      |
+| Yellow | ?y      |
+| White | ?w      |
