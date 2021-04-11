@@ -11,7 +11,7 @@ Add this tag into your `<head>` tag
 now,
 just add a class `?` at the end of your element's class list
 
-for emample: 
+for example: 
 ```html
 <div class="h-36 w-36 bg-green-100 ?">
   // to-do
