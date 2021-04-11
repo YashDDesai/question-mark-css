@@ -4,7 +4,7 @@
 
 
 .\? {
-  border: 2px solid seagreen;
+  border: 2px solid yellow;
   border-radius: 4px;
   animation: blink-border 0.5s alternate infinite;
 }
@@ -14,6 +14,6 @@
     border-color:inherit;
   }
   to{
-    border-color:seagreen;
+    border-color:yellow;
   }
 }
