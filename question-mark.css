@@ -1,0 +1,28 @@
+/*  
+USAGE:  just add a class `?` at the end of your element's class list
+
+for emample: 
+
+<div class="h-36 w-36 bg-green-100 ?">
+  // to-do
+</div>
+
+
+*/
+
+
+
+.\? {
+  border: 2px solid red;
+  border-radius: 4px;
+  animation: blink-border 0.5s alternate infinite;
+}
+
+@keyframes blink-border{
+  from{
+    border-color:inherit;
+  }
+  to{
+    border-color:red;
+  }
+}
