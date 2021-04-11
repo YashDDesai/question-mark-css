@@ -11,7 +11,7 @@
 
 @keyframes blink-border{
   from{
-    border-color:inherit;
+    border-color:transparent;
   }
   to{
     border-color: red;
