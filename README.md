@@ -6,7 +6,7 @@ Bored to type `border: 1px solid red;` each time to figure out some elements? No
 
 Add this tag into your `<head>` tag
 
-`<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/YashDDesai/question-mark-css@1.2.0/question-mark.css">`
+`<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/YashDDesai/question-mark-css@2.0.0/question-mark.css">`
 
 now,
 just add a class `?` at the end of your element's class list
@@ -21,7 +21,7 @@ for example:
 ## Need more colors!
 
 
-| Border Color   | class   |
+| Outline Color   | class   |
 | ------------- |:-------------:|
 | Red (default)     | ? | 
 | Green      | ?g      |
